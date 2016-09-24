@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>CoreWebAPI</name></assembly>
+<members>
+<member name="T:Newtonsoft.Json.FSharp.ListConverter">
+<summary>
+ Converts F# lists to/from JSON arrays
+ https://github.com/eulerfx/JsonNet.FSharp/
+</summary>
+</member>
+<member name="T:Newtonsoft.Json.FSharp.OptionConverter">
+<summary>
+ Converts F# Option values to JSON
+ https://github.com/eulerfx/JsonNet.FSharp/
+</summary>
+</member>
+<member name="T:Newtonsoft.Json.FSharp.SingleCaseUnionConverter">
+<summary>
+ Convert single case unions like &quot;type Email = Email of string&quot; to/from json. 
+ https://github.com/eulerfx/JsonNet.FSharp/blob/master/src/JsonNet.FSharp/SingleCaseUnionConverter.fs
+</summary>
+</member>
+<member name="T:Newtonsoft.Json.FSharp.TupleArrayConverter">
+<summary>
+ Converts F# tuples to/from JSON arrays. (a,b) = [a,b]
+ https://github.com/eulerfx/JsonNet.FSharp/blob/master/src/JsonNet.FSharp/TupleArrayConverter.fs
+</summary>
+</member>
+<member name="T:Newtonsoft.Json.FSharp.UnionEnumConverter">
+<summary>
+ Convert unions of form &quot;type Union = A | B | C&quot; to/from json strings
+ https://github.com/eulerfx/JsonNet.FSharp/blob/master/src/JsonNet.FSharp/UnionEnumConverter.fs
+</summary>
+</member>
+</members>
+</doc>
